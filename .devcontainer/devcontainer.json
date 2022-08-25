@@ -20,7 +20,11 @@
 	"features": {
 		"terraform": "1.2",
 		"azure-cli": "latest",
-		"python": "3.9"
+		"python": "3.9",
+		"docker-in-docker": {
+			"version": "latest",
+	  		"dockerDashComposeVersion": "v2"
+		}
 
 	}
 }
